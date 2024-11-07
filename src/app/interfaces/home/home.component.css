@@ -1,0 +1,83 @@
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #f5f5f5;
+}
+
+nav ul {
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+/* Carousel */
+.carousel {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+    background-color: #f0f0f5;
+}
+
+.carousel-container {
+    position: relative;
+    width: 50%;
+}
+
+.carousel-container img {
+    width: 100%;
+    display: none;
+}
+
+.carousel-container img.active {
+    display: block;
+}
+
+.carousel-text {
+    background-color: #2b3a6a;
+    color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    width: 40%;
+}
+
+.carousel-text h2 {
+    margin-bottom: 1em;
+}
+
+/* Sección de Descripción */
+.descripcion {
+    text-align: center;
+    padding: 2em;
+}
+
+.descripcion-content {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente si tienen altura */
+    height: 100vh; /* Hace que el contenedor ocupe toda la altura de la ventana */
+    text-align: center; /* Centra el texto dentro del título */
+}
+
+.descripcion-content img {
+    width: 150px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #2b3a6a;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+

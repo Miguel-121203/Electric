@@ -1,3 +1,9 @@
+.tamanio-logo{
+  position: static;
+  width: 100px; /* Ajusta el tamaño del logo */
+  height: auto; /* Mantiene la proporción */
+  left: 40px; /* Distancia desde el borde izquierdo */
+}
 .navbar {
     background-color: #f8f9fa;
     border-bottom: 2px solid #ddd;
