@@ -51,6 +51,22 @@ nav ul li {
     margin-bottom: 1em;
 }
 
+.carousel-custom-size {
+    height: 300px; /* Ajusta la altura aquí */
+  }
+
+  .carousel-custom-size .carousel-inner .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+  }
+
 /* Sección de Descripción */
 .descripcion {
     text-align: center;
