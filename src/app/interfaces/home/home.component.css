@@ -94,5 +94,11 @@ nav ul li {
     text-decoration: none;
 }
 
+.img-medium {
+    width: 75%;
+    max-width: 500px;
+    height: auto;
+  }
+
 
 
