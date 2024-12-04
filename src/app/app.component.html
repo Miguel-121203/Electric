@@ -1,38 +1,21 @@
-<nav class="navbar navbar-expand-lg">
-  <div class="container d-flex justify-content-between">
-    <!-- Logo y Nombre de la Compañía -->
-    <div class="navbar-brand d-flex align-items-center">
+  
+  <header class="header">
 
-      <img src="icons/logo-i&m.jpg" class="tamanio-logo" alt="Logo" > <!-- Reemplaza con la URL de tu logo -->
+    <div class="logo">
+      <img src="icons/logo-i&m.jpg" alt="Logo de la compañia">
+      <h2 class="clas">I&M Electric
+        
+      </h2>
+      <h3>Ingeniería y mantenimiento</h3>
 
-      <div>
-
-        <h1>I&M ELECTRIC</h1>
-        <h4 >Ingeniería & Mantenimiento</h4>
-      
-      </div>
     </div>
-
-    <!-- Menú de navegación -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link active" routerLink="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/servicios">Servicios</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/sobre-nosotros">Quienes Somos</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+   
+    <nav class="navbar">
+      <a href="#" routerLink="/">Home</a>
+      <a href="#" routerLink="/servicios">Servicios</a>
+      <a href="#" routerLink="/sobre-nostros">Sobre nosotros</a>
+    </nav>
+  </header>
 
 
 <div class="content-wrapper">
@@ -40,38 +23,3 @@
   <router-outlet></router-outlet> <!-- Aquí va tu contenido principal -->
 </div>
 
-<footer class="footer bg-primary text-white py-4">
-  <div class="container">
-    <div class="row">
-      <!-- Logo y Redes Sociales -->
-      <div class="col-md-3 text-center d-flex flex-column align-items-center">
-        <img src="icons/logo-i&m.jpg" alt="I&M Electric Logo" style="max-width: 100px; margin-bottom: 15px;">
-        
-        <!-- Redes Sociales -->
-        <div>
-          <a href="#" class="text-white mx-2" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="text-white mx-2" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-          <a href="#" class="text-white mx-2" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        </div>
-      </div>
-
-      <!-- Dirección -->
-      <div class="col-md-3">
-        <h6>Dirección:</h6>
-        <p>Calle 54b # 4 - 7 Centro</p>
-      </div>
-
-      <!-- Teléfono -->
-      <div class="col-md-3">
-        <h6>Teléfono:</h6>
-        <p>+57 321 2425619</p>
-      </div>
-
-      <!-- Email -->
-      <div class="col-md-3">
-        <h6>Email:</h6>
-        <p>im.electric.sasl&#64;gmail.com</p>
-      </div>
-    </div>
-  </div>
-</footer>
