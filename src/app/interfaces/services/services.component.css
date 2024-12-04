@@ -1,0 +1,64 @@
+
+.slider-frame{
+  width: 1000px;
+  padding: 90px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px; /* Ajusta este valor según el espacio que necesites */
+}
+
+.slider-frame ul{
+  display: flex;
+  padding: relative;
+  width: 420%;
+  position: center;
+
+  animation: slide 28s infinite;
+}
+
+.slider-frame li{
+  list-style: none;
+  width: 200%;
+  position: relative;
+}
+
+.slider-frame img{
+  width: 80%;
+  position: relative;
+  justify-content: center;
+  box-shadow: #000 0 1px 20px, #75759a 0 1px 2px;
+}
+
+
+@keyframes slide{
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+  }
+
+  @media(max-width:900px){
+    body{
+        padding: 30px;
+    }
+
+    .slider-frame{
+        width: 100%;
+        margin-bottom: 50px; /* Ajusta este valor según el espacio que necesites */
+        padding: 0px;
+        height: auto;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}

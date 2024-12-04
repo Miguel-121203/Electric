@@ -40,7 +40,7 @@ section{
   background: #fff;
   border-radius: 24px;
   box-shadow: 0.5px 1px 15px 1px #0b023b;
-  margin-bottom: 100px; /* Ajusta este valor según el espacio que necesites */
+  margin-bottom: 50px; /* Ajusta este valor según el espacio que necesites */
 }
 .card img{
   max-width: 500px;
@@ -115,9 +115,10 @@ section{
   }
 
   .slider-frame img{
-    width: 75%;
+    width: 80%;
     position: relative;
     justify-content: center;
+    box-shadow: #000 0 1px 20px, #75759a 0 1px 2px;
   }
 
   @keyframes slide{
@@ -141,7 +142,7 @@ section{
 
     .slider-frame{
         width: 100%;
-        margin-bottom: 50px; /* Ajusta este valor según el espacio que necesites */
+        margin-bottom: 20px; /* Ajusta este valor según el espacio que necesites */
         padding: 0px;
 
     }
@@ -157,19 +158,20 @@ section{
       margin-bottom: 30px; /* Ajusta este valor según el espacio que necesites */
     }
     .card img{
-      margin: 30px;
+      height: auto;
       width: 100%;
       max-width: 1000px;
-      box-shadow: #fff 0 1px 10px, #fff 0 1px 2px;
+      box-shadow: #ffde59 0 1px 10px, #fff 0 1px 2px;
     }
     .card .text1{
       margin: 0;
       font-size: 15px;
+      margin-bottom: 10px;
     }
     .card .text2,
     .card .paragraph{
       color: #fff;
-      margin: 20px 0 10px 0;
+      margin: 20px 0 40px 0;
     }
   }
   
