@@ -22,6 +22,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: #000 0 1px 20px, #75759a 0 1px 2px;
 
 }
 
@@ -33,7 +34,7 @@ body{
 .logo h2{
   position: absolute;
   top: 5px;
-  left: 115px;
+  left: 120px;
   font-size: 2.3rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #fff;
@@ -42,7 +43,7 @@ body{
 .logo h3{
   position: absolute;
   top: 38px;
-  left: 115px;
+  left: 120px;
   font-size: 2.3rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #fff;
@@ -50,8 +51,8 @@ body{
 .logo img{
   width: 15%;
   border-radius: 5px;
-  margin-right: 10px;
-  box-shadow: #fff 0 1px 5px, #75759a 0 1px 2px;
+  margin-left: 8px;
+  box-shadow: #fff 0 1px 3px, #75759a 0 1px 2px;
 }
 .navbar a{
 
@@ -78,6 +79,7 @@ nav a:hover{
 .footer{
   width: 100%;
   background-color: #353470;
+  box-shadow: #000 0 1px 20px, #75759a 0 1px 2px;
 
 }
 
